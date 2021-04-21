@@ -1,6 +1,7 @@
 import re
 import shlex
 import subprocess
+import sys
 
 
 def traceroute(address):
@@ -75,7 +76,8 @@ def make_table(ip_as_dict):
 
 
 if __name__ == '__main__':
-    ip_list = get_ips(traceroute(["yandex.ru"]))
+    addr = sys.argv[1]
+    ip_list = get_ips(traceroute([addr]))
 
     final = []
     for current in ip_list:
