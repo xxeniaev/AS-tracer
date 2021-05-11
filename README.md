@@ -15,5 +15,7 @@
 
 `python3 main.py yandex.ru`
 
+`python3 main.py 5.255.255.77`
+
 ### Автор 
 *Xenia Evdokimova* ([xxeniaev](https://github.com/xxeniaev))
