@@ -7,8 +7,8 @@ import IP2Location
 
 def traceroute(address):
     """
-    function that takes domain name or ip makes request to cymru.com data base to get AS info
-    :param address:
+    function that takes domain name or ip and gets routers to target using traceroute
+    :param address: target ip or domain name
     :return: list of strings with hops info
     """
     pattern = re.compile(".*\d  \* \* \*")

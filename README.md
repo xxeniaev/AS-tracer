@@ -13,7 +13,7 @@
 
 ### Использование 
 
-`python3 main.py 87.240.190.78`
+`python3 main.py yandex.ru`
 
 ### Автор 
 *Xenia Evdokimova* ([xxeniaev](https://github.com/xxeniaev))
